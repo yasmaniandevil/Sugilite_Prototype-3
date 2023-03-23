@@ -25,7 +25,7 @@ public class SoundOnCollision : MonoBehaviour
     {
         if (other.gameObject.tag == "Player")
         {
-            objectAudio.loop = true;
+            //objectAudio.loop = true;
             objectAudio.Play();
         }
     }
