@@ -23,10 +23,14 @@ public class SoundOnCollision : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.tag == "Player")
+        if (!isPlaying)
         {
-            //objectAudio.loop = true;
-            objectAudio.Play();
+            if (other.gameObject.tag == "Player")
+            {
+                isPlaying = true;
+                //objectAudio.loop = true;
+                objectAudio.Play();
+            }
         }
     }
 }
