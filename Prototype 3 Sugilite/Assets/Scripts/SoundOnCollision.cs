@@ -12,7 +12,6 @@ public class SoundOnCollision : MonoBehaviour
     {
         objectAudio = GetComponent<AudioSource>();
         isPlaying = false;
-        Debug.Log("CollisionAudioSource: " + objectAudio);
 
     }
 
@@ -32,6 +31,8 @@ public class SoundOnCollision : MonoBehaviour
                 //objectAudio.loop = true;
                 objectAudio.Play();
             }
+            
+            Debug.Log("CollisionAudioSource: " + objectAudio);
         }
     }
 }
