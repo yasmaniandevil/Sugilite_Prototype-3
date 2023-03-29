@@ -12,6 +12,7 @@ public class SoundOnCollision : MonoBehaviour
     {
         objectAudio = GetComponent<AudioSource>();
         isPlaying = false;
+        Debug.Log("CollisionAudioSource: " + objectAudio);
 
     }
 

@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Audio;
 using UnityEngine.UI;
 
 public class PlaySoundonAwake : MonoBehaviour
@@ -12,6 +13,7 @@ public class PlaySoundonAwake : MonoBehaviour
     {
         objectAudio = GetComponent<AudioSource>();
         isPlaying = false;
+        Debug.Log("Audio Output: " + objectAudio);
 
     }
 
