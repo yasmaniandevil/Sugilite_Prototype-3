@@ -186,6 +186,7 @@ GameObject:
   - component: {fileID: 3300000}
   - component: {fileID: 2300000}
   - component: {fileID: 14300000}
+  - component: {fileID: 2354098242020495824}
   - component: {fileID: 11400014}
   - component: {fileID: 11400010}
   - component: {fileID: 11400004}
@@ -280,6 +281,22 @@ CharacterController:
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &2354098242020495824
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100002}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8da30d5a29bdaee43bc73e71fe15f969, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  torch: {fileID: 0}
+  phone: {fileID: 0}
+  switchOn: {fileID: 0}
+  switchOff: {fileID: 0}
 --- !u!114 &11400014
 MonoBehaviour:
   m_ObjectHideFlags: 0
