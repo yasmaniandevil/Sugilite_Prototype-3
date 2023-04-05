@@ -316,7 +316,7 @@ Transform:
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &95522694
 BoxCollider:
@@ -1232,7 +1232,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 312e1748da37a4078a528776a15de113, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objectAudio: {fileID: 335848779}
+  objectAudio: {fileID: 0}
   isPlaying: 0
 --- !u!114 &335848778
 MonoBehaviour:
@@ -1654,7 +1654,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 2107f694de6514f70bd16ce5102284c0, type: 3}
       propertyPath: m_RootOrder
-      value: 14
+      value: 19
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 2107f694de6514f70bd16ce5102284c0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1729,7 +1729,7 @@ Transform:
   - {fileID: 949197211}
   - {fileID: 1648728501}
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &462788771 stripped
 GameObject:
@@ -1854,7 +1854,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 0
+      value: 1
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -2077,7 +2077,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!1 &520901631
 GameObject:
@@ -2810,7 +2810,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -7552582706839291426, guid: e018ef4b120ef4074a79cda90618041b, type: 3}
       propertyPath: m_RootOrder
-      value: 19
+      value: 21
       objectReference: {fileID: 0}
     - target: {fileID: -7552582706839291426, guid: e018ef4b120ef4074a79cda90618041b, type: 3}
       propertyPath: m_LocalScale.x
@@ -3014,7 +3014,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!108 &802701744
 Light:
   m_ObjectHideFlags: 0
@@ -3090,7 +3090,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!1001 &846764088
 PrefabInstance:
@@ -3254,7 +3254,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 6269246586723352434, guid: e77413f992ed8034685402cdc799dfc3, type: 2}
   m_audioClip: {fileID: 8300000, guid: 7b1c4601ff31c444494a9024af0ac3b9, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.25
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -3462,7 +3462,7 @@ Transform:
   - {fileID: 198632657}
   - {fileID: 466249166}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1053656618
 PrefabInstance:
@@ -3768,7 +3768,7 @@ Transform:
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 20
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1066093889
 MonoBehaviour:
@@ -4194,7 +4194,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 312e1748da37a4078a528776a15de113, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objectAudio: {fileID: 1161326033}
+  objectAudio: {fileID: 0}
   isPlaying: 0
 --- !u!33 &1161326037
 MeshFilter:
@@ -4277,7 +4277,7 @@ Transform:
   - {fileID: 1862984368}
   - {fileID: 746105212}
   m_Father: {fileID: 0}
-  m_RootOrder: 18
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1196572381 stripped
 Transform:
@@ -4734,7 +4734,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 22
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1574778021
 MonoBehaviour:
@@ -4970,7 +4970,7 @@ Transform:
   - {fileID: 1801711095}
   - {fileID: 710991302}
   m_Father: {fileID: 0}
-  m_RootOrder: 15
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1624250590
 GameObject:
@@ -5020,7 +5020,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 7151160768589355904, guid: e77413f992ed8034685402cdc799dfc3, type: 2}
   m_audioClip: {fileID: 8300000, guid: d3e59f81abe874bc69e2ac73e53f29e3, type: 3}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -5332,7 +5332,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 0
+      value: 1
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -5526,7 +5526,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 21
+  m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1688195904 stripped
 GameObject:
@@ -6013,7 +6013,7 @@ Transform:
   - {fileID: 335848774}
   - {fileID: 1624250591}
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1801711094
 GameObject:
@@ -6270,7 +6270,7 @@ Transform:
   - {fileID: 371716586}
   - {fileID: 1697399501}
   m_Father: {fileID: 0}
-  m_RootOrder: 16
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1862984361
 GameObject:
@@ -6734,7 +6734,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -7552582706839291426, guid: e018ef4b120ef4074a79cda90618041b, type: 3}
       propertyPath: m_RootOrder
-      value: 12
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: -7552582706839291426, guid: e018ef4b120ef4074a79cda90618041b, type: 3}
       propertyPath: m_LocalScale.x
@@ -7059,7 +7059,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 17
+  m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2039621364
 PrefabInstance:
@@ -7209,7 +7209,7 @@ Transform:
   - {fileID: 2094037737}
   - {fileID: 1313183157}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2069015740
 GameObject:
