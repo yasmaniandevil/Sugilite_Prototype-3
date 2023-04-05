@@ -1232,7 +1232,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 312e1748da37a4078a528776a15de113, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objectAudio: {fileID: 335848779}
+  objectAudio: {fileID: 0}
   isPlaying: 0
 --- !u!114 &335848778
 MonoBehaviour:
@@ -3254,7 +3254,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 6269246586723352434, guid: e77413f992ed8034685402cdc799dfc3, type: 2}
   m_audioClip: {fileID: 8300000, guid: 7b1c4601ff31c444494a9024af0ac3b9, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.25
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -4194,7 +4194,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 312e1748da37a4078a528776a15de113, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objectAudio: {fileID: 1161326033}
+  objectAudio: {fileID: 0}
   isPlaying: 0
 --- !u!33 &1161326037
 MeshFilter:
@@ -5332,7 +5332,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 0
+      value: 1
       inSlope: 0
       outSlope: 0
       tangentMode: 0
