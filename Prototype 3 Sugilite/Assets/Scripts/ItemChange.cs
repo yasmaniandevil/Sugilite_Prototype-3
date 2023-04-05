@@ -9,6 +9,9 @@ public class ItemChange : MonoBehaviour
     public GameObject phone;
     public AudioSource switchOn;
     
+    //check if the light source is already torch
+    bool isPhone = false;
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -20,12 +23,19 @@ public class ItemChange : MonoBehaviour
     {
         if (other.gameObject.name.Contains("ChangeItemTrigger"))
         {
-            if (switchOn == null) Debug.LogError("switchOn is null on " + gameObject.name);
+            if (switchOn == null)
+            {
+                Debug.LogError("switchOn is null on " + gameObject.name);
+            }
             
             phone.SetActive(true);
             Destroy(torch);
-            switchOn.PlayOneShot(switchOn.clip);
-
+            if (!isPhone)
+            {
+                switchOn.PlayOneShot(switchOn.clip);
+                isPhone = true;
+            }
+            
         }
     }
     
