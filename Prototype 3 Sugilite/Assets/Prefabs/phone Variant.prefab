@@ -170,6 +170,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   torch: {fileID: 0}
   phone: {fileID: 0}
+  switchOn: {fileID: 0}
+  switchOff: {fileID: 0}
 --- !u!4 &7496524485192080843 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: fc7ac5a8de62f614fb827df36440b21a, type: 3}

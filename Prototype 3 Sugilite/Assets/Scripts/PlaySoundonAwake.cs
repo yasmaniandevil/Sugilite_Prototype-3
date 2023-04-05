@@ -25,6 +25,10 @@ public class PlaySoundonAwake : MonoBehaviour
             isPlaying = true;
             objectAudio.loop = true;
             objectAudio.Play();
+            if (objectAudio == null)
+            {
+                Debug.LogError("sound is null on " + gameObject.name);
+            }
         }
     }
 }
