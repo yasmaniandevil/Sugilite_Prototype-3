@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &6549488735833997169
+--- !u!1 &1783412067739758060
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,9 +8,9 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 6549488735833997164}
-  - component: {fileID: 6549488735833997167}
-  - component: {fileID: 6549488735833997166}
+  - component: {fileID: 1783412067739758065}
+  - component: {fileID: 1783412067739758066}
+  - component: {fileID: 1783412067739758067}
   m_Layer: 0
   m_Name: TerrainCaveFloor
   m_TagString: Untagged
@@ -18,28 +18,28 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
   m_IsActive: 1
---- !u!4 &6549488735833997164
+--- !u!4 &1783412067739758065
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6549488735833997169}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 13, y: 87, z: -62}
+  m_GameObject: {fileID: 1783412067739758060}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -480.97415, y: -126.95276, z: -80.9021}
   m_LocalScale: {x: 0.42636603, y: 0.59337, z: 0.39430627}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!218 &6549488735833997167
+--- !u!218 &1783412067739758066
 Terrain:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6549488735833997169}
+  m_GameObject: {fileID: 1783412067739758060}
   m_Enabled: 1
   serializedVersion: 6
   m_TerrainData: {fileID: 15600000, guid: bc669effea0811245844ed4af76a6af7, type: 2}
@@ -67,13 +67,13 @@ Terrain:
   m_GroupingID: 0
   m_RenderingLayerMask: 1
   m_AllowAutoConnect: 1
---- !u!154 &6549488735833997166
+--- !u!154 &1783412067739758067
 TerrainCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6549488735833997169}
+  m_GameObject: {fileID: 1783412067739758060}
   m_Material: {fileID: 0}
   m_Enabled: 1
   m_TerrainData: {fileID: 15600000, guid: bc669effea0811245844ed4af76a6af7, type: 2}
